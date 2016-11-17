@@ -1,0 +1,3 @@
+rootProject.name = 'selenium_task_1'
+include 'java'
+
