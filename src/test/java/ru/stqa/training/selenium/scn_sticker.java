@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import static junit.framework.Assert.assertFalse;
+import static junit.framework.Assert.assertTrue;
 
 
 public class scn_sticker {
@@ -43,17 +44,16 @@ public class scn_sticker {
     @Test
     public void scn_sticker_f() {
 
-        String xp1,xp2,tit;
 
         driver.get("http://localhost/litecart/");
 
-        //Collection<WebElement> items = driver.findElements(By.xpath(".//*[@class='name']")); // список всех пунктов меню //li[@id='app-']/ul/li[contains (@id, 'doc-')] в каждом пункте меню находим список и кликаем по нему.
-        //int size=items.size();
-        ////*[contains(@class, 'sticker')] все стикеры
-        //li[@class='product column shadow hover-light'] все продукты
-        //li[@class='product column shadow hover-light']//*[contains(@class, 'sticker')] типа все стикеры
+        int countOfDucks = driver.findElements(By.xpath("//li[@class='product column shadow hover-light']")).size(); // узнаем количество продуктов на странице, категория не важна.
 
-
+        for(int i=0; i<countOfDucks; i++)
+        {
+            int res = driver.findElements(By.xpath("//li[@class='product column shadow hover-light']")).get(i).findElements(By.xpath("./a/div/div[contains(@class, 'sticker')]")).size(); // для каждого продукта узнаем количество стикеров
+            assertTrue(res==1); //проверим, что стикер один
+        }
 
     }//test
 
