@@ -53,7 +53,7 @@ public class scn_sort {
         driver.findElement(By.name("password")).sendKeys("admin"); //поиск по имени поля ввода пароля, ввод пароля
         driver.findElement(By.name("login")).click(); //ищем кнопку "Логин", жмём её
 
-        driver.findElement(By.xpath("//a[contains(@href,\"?app=countries&doc=countries\")]")).click(); //заходим в "Страны"
+        driver.findElement(By.xpath("//a[contains(@href,'?app=countries&doc=countries')]")).click(); //заходим в "Страны"
 
         //проверим сортировку стран
 
