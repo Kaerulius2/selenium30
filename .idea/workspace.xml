@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_login.java" line="41" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76eb8fd4-e949-4309-ac63-36ad356952b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="76eb8fd4-e949-4309-ac63-36ad356952b0" name="Default" comment="" />
     <ignored path="selenium_task_1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,11 +59,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="scn_register.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scn_register.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_register.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1717">
-              <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scn_add_new_duck.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_add_new_duck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="75" column="97" selection-start-line="75" selection-start-column="97" selection-end-line="75" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -425,10 +433,11 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_menu_adm.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_menu_adm2.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_sticker.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_sort.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_price.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_geo_sort.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_register.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_sort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_add_new_duck.java" />
       </list>
     </option>
   </component>
@@ -529,27 +538,7 @@
       <recent name="C:\GitHub\selenium30\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.scn_register">
-    <configuration default="false" name="scn_sticker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium_task_1_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.scn_sticker" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.scn_add_new_duck">
     <configuration default="false" name="scn_sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_task_1_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -616,6 +605,26 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.scn_register" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="scn_add_new_duck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_task_1_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.scn_add_new_duck" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -875,19 +884,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.scn_sticker" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.scn_sort" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.scn_geo_sort" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.scn_price" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.scn_register" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.scn_sort" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.scn_geo_sort" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.scn_price" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.scn_register" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.scn_add_new_duck" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.scn_register" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.scn_price" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.scn_geo_sort" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.scn_sort" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.scn_sticker" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.scn_add_new_duck" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.scn_register" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.scn_price" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.scn_geo_sort" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.scn_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -905,57 +914,57 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="scn_register - 2016.12.06 at 10h 50m 58s.xml">
-      <configuration name="scn_register" configurationId="JUnit" />
+    <history-entry file="scn_add_new_duck - 2016.12.06 at 15h 28m 24s.xml">
+      <configuration name="scn_add_new_duck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scn_register - 2016.12.06 at 10h 54m 26s.xml">
-      <configuration name="scn_register" configurationId="JUnit" />
+    <history-entry file="scn_add_new_duck - 2016.12.06 at 15h 33m 42s.xml">
+      <configuration name="scn_add_new_duck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scn_register - 2016.12.06 at 11h 08m 01s.xml">
-      <configuration name="scn_register" configurationId="JUnit" />
+    <history-entry file="scn_add_new_duck - 2016.12.06 at 15h 35m 42s.xml">
+      <configuration name="scn_add_new_duck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scn_register - 2016.12.06 at 11h 08m 53s.xml">
-      <configuration name="scn_register" configurationId="JUnit" />
+    <history-entry file="scn_add_new_duck - 2016.12.06 at 15h 36m 44s.xml">
+      <configuration name="scn_add_new_duck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scn_register - 2016.12.06 at 12h 10m 45s.xml">
-      <configuration name="scn_register" configurationId="JUnit" />
+    <history-entry file="scn_add_new_duck - 2016.12.06 at 15h 37m 20s.xml">
+      <configuration name="scn_add_new_duck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scn_register - 2016.12.06 at 12h 42m 09s.xml">
-      <configuration name="scn_register" configurationId="JUnit" />
+    <history-entry file="scn_add_new_duck - 2016.12.06 at 15h 38m 59s.xml">
+      <configuration name="scn_add_new_duck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scn_register - 2016.12.06 at 12h 48m 03s.xml">
-      <configuration name="scn_register" configurationId="JUnit" />
+    <history-entry file="scn_add_new_duck - 2016.12.06 at 15h 42m 46s.xml">
+      <configuration name="scn_add_new_duck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scn_register - 2016.12.06 at 12h 58m 05s.xml">
-      <configuration name="scn_register" configurationId="JUnit" />
+    <history-entry file="scn_add_new_duck - 2016.12.06 at 15h 48m 36s.xml">
+      <configuration name="scn_add_new_duck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scn_register - 2016.12.06 at 13h 07m 04s.xml">
-      <configuration name="scn_register" configurationId="JUnit" />
+    <history-entry file="scn_add_new_duck - 2016.12.06 at 15h 48m 37s.xml">
+      <configuration name="scn_add_new_duck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scn_register - 2016.12.06 at 13h 07m 51s.xml">
-      <configuration name="scn_register" configurationId="JUnit" />
+    <history-entry file="scn_add_new_duck - 2016.12.06 at 15h 51m 10s.xml">
+      <configuration name="scn_add_new_duck" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.278125" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.2390625" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.6046875" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.3953125" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.6109375" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.3890625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12552084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.046875" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39006343" sideWeight="0.48125" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39006343" sideWeight="0.415625" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -979,17 +988,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="62" />
+      <option name="time" value="83" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="driver" language="JAVA" />
-        <watch expression="cPrice" />
-        <watch expression="col_rPrice" />
-        <watch expression="w_rPrice" />
-        <watch expression="driver.findElement(By.xpath(&quot;//div[@class='information']&quot;)).findElement(By.xpath(&quot;//s[@class='regular-price']&quot;)).getText()" />
-        <watch expression="driver.findElement(By.xpath(&quot;//div[@class='information']&quot;)).findElement(By.xpath(&quot;./s[@class='regular-price']&quot;)).getText()" />
-        <watch expression="mail" />
+        <watch expression="ggg" />
       </configuration>
     </watches-manager>
   </component>
@@ -998,9 +1001,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,9 +1009,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,24 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_menu_adm2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="96" column="45" selection-start-line="94" selection-start-column="20" selection-end-line="96" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -1194,10 +1175,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_geo_sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="-49">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_menu_adm2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1210,10 +1215,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_register.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/scn_add_new_duck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        <state relative-caret-position="141">
+          <caret line="75" column="97" selection-start-line="75" selection-start-column="97" selection-end-line="75" selection-end-column="97" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
