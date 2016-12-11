@@ -58,7 +58,8 @@ public class scn_windows {
     @Before
     public void start()
     {
-        driver = new ChromeDriver();
+        //driver = new ChromeDriver();
+
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver,10);
 
