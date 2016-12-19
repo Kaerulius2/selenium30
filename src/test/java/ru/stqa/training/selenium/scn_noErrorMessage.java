@@ -51,26 +51,25 @@ public class scn_noErrorMessage {
         driver.findElement(By.name("password")).sendKeys("admin"); //поиск по имени поля ввода пароля, ввод пароля
         driver.findElement(By.name("login")).click(); //ищем кнопку "Логин", жмём её
 
-        driver.findElement(By.xpath("//a[contains(@href,'?app=catalog&doc=catalog')]")).click();
-        driver.findElement(By.xpath("//a[contains(@href,'?app=catalog&doc=catalog&category_id=1')]")).click();
+        driver.findElement(By.xpath("//a[contains(@href,'?app=catalog&doc=catalog')]")).click(); //кликнем каталог
+        driver.findElement(By.xpath("//a[contains(@href,'?app=catalog&doc=catalog&category_id=1')]")).click(); //кликнем уток
 
-//tr[@class='row']//a[contains(@href,'edit')]
-        int countDucks = driver.findElements(By.xpath("//tr[@class='row']//a[contains(@href,'edit_product')]//i[@class='fa fa-pencil']")).size(); //количест
+        int countDucks = driver.findElements(By.xpath("//tr[@class='row']//a[contains(@href,'edit_product')]//i[@class='fa fa-pencil']")).size(); //количество товаров
 
-        for (int i=0; i<countDucks;i++)
+        for (int i=0; i<countDucks;i++) //для каждого товара
         {
-            driver.findElements(By.xpath("//tr[@class='row']//a[contains(@href,'edit_product')]//i[@class='fa fa-pencil']")).get(i).click();
+            driver.findElements(By.xpath("//tr[@class='row']//a[contains(@href,'edit_product')]//i[@class='fa fa-pencil']")).get(i).click(); //клик по товару
 
-            for (LogEntry le : driver.manage().logs().get("browser").getAll()) {
-                String mes=le.getMessage();
-                if(!mes.equals(""))
+            for (LogEntry le : driver.manage().logs().get("browser").getAll()) {  //получим логи браузера и для каждого
+                String mes=le.getMessage();                                       //возьмем сообщение
+                if(!mes.equals(""))                                               //если оно не пустое
                 {
-                    Assert.fail("Ошибка: "+mes);
+                    Assert.fail("Ошибка: "+mes);                                  //зафейлим тест
                 }
 
             }
 
-            driver.navigate().back();
+            driver.navigate().back(); //возврат к списку уток
         }
 
 
