@@ -78,8 +78,6 @@ public class scn_cart_add_delete {
             }
         }
 
-        //wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//em"),"There are no items in your cart.")); //подождем текст, что корзина пуста, просто так, не по заданию.
-
 
     }//test
 
